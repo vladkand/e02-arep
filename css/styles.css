@@ -1,0 +1,14 @@
+h2{
+    /* outline: 1px solid tomato; */
+    background-color: teal;
+}
+.title:hover{
+    background-color: tomato
+}
+ul{
+    text-align: center;
+}
+a:hover{
+    font-size: 26px;
+    background-color: greenyellow;    
+}
