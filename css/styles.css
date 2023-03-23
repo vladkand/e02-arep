@@ -2,13 +2,20 @@ h2{
     /* outline: 1px solid tomato; */
     background-color: teal;
 }
-.title:hover{
-    background-color: tomato
+.logo__link {
+    color: #00ff15;
+
 }
-ul{
-    text-align: center;
+
+.logo__link:hover,
+.logo__link:focus {
+    background-color: yellow;
+    color: red;
+    font-size: 28px;
+
 }
-a:hover{
-    font-size: 26px;
-    background-color: greenyellow;    
+.logo__link:active{
+    font-size: 30px;
+    color: blueviolet;
+
 }
