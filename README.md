@@ -1,6 +1,7 @@
 # e02-arep
 
 # Есть 7 категорий контента: 
+## 
 1 - Metadata content 
 2 - Flow content (Все стоит в BODY)  
 3 - Sectioning content (Крупные смысловые секции) 
