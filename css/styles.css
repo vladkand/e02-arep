@@ -1,21 +1,26 @@
-h2{
-    /* outline: 1px solid tomato; */
+/* h2{
+    outline: 1px solid tomato;
     background-color: teal;
-}
+} */
+
 .logo__link {
-    color: #00ff15;
+    color: #3f0477;
 
 }
 
 .logo__link:hover,
 .logo__link:focus {
-    background-color: yellow;
+    background-color: rgb(200, 0, 150);
     color: red;
     font-size: 28px;
 
 }
 .logo__link:active{
     font-size: 30px;
-    color: blueviolet;
+    color:  violet;
 
+}
+/* ================ */
+ul li:first-child {
+    outline: 3px dotted red;
 }
