@@ -1,26 +1,38 @@
-h2{
-    outline: 1px solid tomato;
-    background-color: #0000ff;
+body{
+    background-color: papayawhip;
+    
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
 }
 
-.logo__link {
-    color: #3f0477;
+/* Header */
 
+.main-menu__link{
+color: red;
 }
 
-.logo__link:hover,
-.logo__link:focus {
-    background-color: rgb(200, 0, 150);
+/* КНОПКИ  */
+.btn{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 22px;
+
     color: red;
-    font-size: 28px;
-
+    background-color: #ffffff;
+    border: 2px solid green;
 }
-.logo__link:active{
-    font-size: 30px;
-    color:  violet;
-
+.btn.prime{
+    color: red;
+    background-color: #ffffff;
+    border-color: red;
 }
-/* ================ */
-ul li:first-child {
-    outline: 3px dotted red;
+.btn.second{
+    color: #ffffff;
+    background-color: red;
+    border-color: transparent;
+
 }
