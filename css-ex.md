@@ -6,3 +6,14 @@
         .link{
             color: inherit;
         }
+
+=============================
+
+# -- HIDDEN --
+
+        для скрытия элементов -->
+
+    .visually-hidden {
+
+        position: fixed; transform: scale(0);
+     }
