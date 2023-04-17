@@ -15,9 +15,8 @@
    --hero-bg-color: rgba(0, 0, 0, 0.3);
 }
 
-
-body *{
-   outline: 1px solid tomato;
+body * {
+   outline: 2px solid tomato;
 }
 body {
    font-family: 'Montserrat', sans-serif;
@@ -149,9 +148,8 @@ body {
 /* Footer */
 
 .footer-link {
-
-font-weight: 700;
-font-size: 15px;
-line-height: 1.6;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 1.6;
    color: var(--title-color);
 }
