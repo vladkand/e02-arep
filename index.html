@@ -4,19 +4,30 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@400;500;700&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      />
+
+      <!-- <link rel="stylesheet" href="./css/normmin.css" /> -->
       <link rel="stylesheet" href="./css/styles.css" />
 
       <title>FISCH</title>
    </head>
    <body>
       <!-- HEADER -->
-      <header>
-         <a href="" class="logo link">
-            <img src="./images/logo-01.svg" alt="logo" width="22.52" />photo
-         </a>
-
+      <header class="page-header">
          <!-- Навигация -->
-         <nav>
+         <nav class="container">
+            <a href="" class="logo link" rel="noopener noreffere">
+               <img src="./images/logo-01.svg" alt="logo" width="22.52" />photo
+            </a>
             <ul class="nav list">
                <li><a href="" class="nav-link link">Features</a></li>
                <li><a href="" class="nav-link link">Pricing</a></li>
@@ -26,8 +37,8 @@
 
             <!-- Auth -->
             <ul class="auth-nav list">
-               <li><a href="" class="btn prime link">Log in</a></li>
-               <li><a href="" class="btn second link">Register</a></li>
+               <li><a href="" class="btn-link prime link">Log in</a></li>
+               <li><a href="" class="btn-link second link">Register</a></li>
             </ul>
          </nav>
       </header>
@@ -36,61 +47,64 @@
       <main>
          <!-- HERO -->
          <section class="hero">
-            <h1 class="title">The largest community of photo enthusiasts</h1>
-            <a href="" class="btn second link">Join Today</a>
+            <h1 class="hero-title title">The largest community of photo enthusiasts</h1>
+            <a href="" class="btn-link second link">Join Today</a>
          </section>
 
          <!-- PROMO -->
          <section class="promo">
-            <h2 class="title">Snap photos and share like br never before</h2>
+            <h2 class="section-title title">
+               Snap photos and share like <br />
+               never before
+            </h2>
             <ul class="list">
                <li>
-                  <h3>Sed ut perspiciatis</h3>
-                  <p>
+                  <h3 class="pretitle title">Sed ut perspiciatis</h3>
+                  <p class="txt">
                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
                      quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                      Neque porro quisquam est.
                   </p>
-                  <a href="" class="btn link">Learn more</a>
+                  <a href="/" class="btn-link link">Learn more</a>
                </li>
                <li>
-                  <h3 class="title">Lorem ipsum dolor</h3>
-                  <p>
+                  <h3 class="pretitle title">Lorem ipsum dolor</h3>
+                  <p class="txt">
                      Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                      ullamco laboris nisi.
                   </p>
-                  <a href="" class="btn link">Learn more</a>
+                  <a href="" class="btn-link link">Learn more</a>
                </li>
                <li>
-                  <h3 class="title">Nemo enim ipsam</h3>
-                  <p>
+                  <h3 class="pretitle title">Nemo enim ipsam</h3>
+                  <p class="txt">
                      Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
                      porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
                      adipisci velit, sed quia non numquam.
                   </p>
-                  <a href="" class="btn link">Learn more</a>
+                  <a href="/" class="btn-link link">Learn more</a>
                </li>
                <li>
-                  <h3 class="title">Tempor incididunt</h3>
-                  <p>
+                  <h3 class="pretitle title">Tempor incididunt</h3>
+                  <p class="txt">
                      Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
                      dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
                      numquam eius modi tempora.
                   </p>
-                  <a href="" class="btn link">Learn more</a>
+                  <a href="/" class="btn-link link">Learn more</a>
                </li>
             </ul>
          </section>
 
          <!-- WORK -->
          <section class="work">
-            <h2 class="hidden">Section WORK - (hidden)</h2>
+            <h2 class="hidden section-title title">Section WORK - (hidden)</h2>
             <ul class="list">
                <li>
                   <img src="./images/work.png" alt="example work" />
-                  <h3 class="title">Sed ut perspiciatis unde omnis</h3>
-                  <p>
+                  <h3 class="pretitle title">Sed ut perspiciatis unde omnis</h3>
+                  <p class="txt">
                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
                      quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                      Neque porro quisquam est, qui dolorem.
@@ -98,8 +112,8 @@
                </li>
                <li>
                   <img src="./images/work.png" alt="example work" width="750" />
-                  <h3 class="title">Sed ut perspiciatis unde omnis</h3>
-                  <p>
+                  <h3 class="pretitle title">Sed ut perspiciatis unde omnis</h3>
+                  <p class="txt">
                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
                      quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                      Neque porro quisquam est, qui dolorem.
@@ -110,12 +124,12 @@
 
          <!-- Clients -->
          <section class="client">
-            <h2 class="title">You’re in good company</h2>
-            <p>
+            <h2 class="section-title title">You’re in good company</h2>
+            <p class="accent-txt">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                incididunt ut labore
             </p>
-            <ul>
+            <ul class="list">
                <li><img src="./images/client.svg" alt="client" width="173" /></li>
                <li><img src="./images/client.svg" alt="client" width="173" /></li>
                <li><img src="./images/client.svg" alt="client" width="173" /></li>
@@ -130,12 +144,12 @@
          <!-- Contact US -->
          <section class="join">
             <h2 class="hidden">Section Contact Us (hidden)</h2>
-            <p>
+            <p class="accent-txt">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                incididunt ut labore
             </p>
-            <a href="" class="btn second link">Join Today</a>
-            <a href="" class="btn link">Contact us</a>
+            <a href="/" class="btn-link second link">Join Today</a>
+            <a href="/" class="btn-link prime link">Contact us</a>
          </section>
       </main>
 
@@ -143,9 +157,9 @@
       <footer>
          <!-- Footer top -->
          <ul class="list">
-            <li><a href="" class="footer-link link">Mobile app</a></li>
-            <li><a href="" class="footer-link link">Community</a></li>
-            <li><a href="" class="footer-link link">Company</a></li>
+            <li><a href="/" class="footer-link link">Mobile app</a></li>
+            <li><a href="/" class="footer-link link">Community</a></li>
+            <li><a href="/" class="footer-link link">Company</a></li>
          </ul>
 
          <a href="" class="logo link"

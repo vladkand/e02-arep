@@ -1,0 +1,28 @@
+/* # e05 Блочная модель */
+
+/* Выравнивание по вертикали в inline-block */
+.class {
+   vertical-align: middle; /* top|middle|bottom */
+}
+
+/* * для просмотра элементов: */
+
+body * {
+   outline: 1px solid tomato;
+}
+
+/* * ЦЕНТРИРОВАНИЕ  */
+.class {
+   margin: 0 auto;
+}
+
+/* *Глобальный border-box */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+/* *Нормализация */
+/* https://github.com/sindresorhus/modern-normalize */
+/* https://cdnjs.com/libraries/modern-normalize */
