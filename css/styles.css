@@ -28,11 +28,32 @@ body {
    color: var(--primary-txt-color);
    background-color: var(--bg-color);
 }
+.section {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   outline: 1px dotted red;
+}
+.section.no-padding {
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
 .list {
+   padding: 0;
+   margin: 0;
    list-style: none;
 }
 .link {
    text-decoration: none;
+}
+h1,
+/* h2, */
+/* h3, */
+h4,
+h5,
+h6, {
+   margin-top: 0;
+   margin-bottom: 0;
 }
 
 /* Title */
@@ -40,6 +61,10 @@ body {
    line-height: 1.5;
    letter-spacing: -0.015em;
    color: var(--title-color);
+}
+/* section-title */
+.centered {
+   text-align: center;
 }
 /* Текст секций */
 
@@ -66,18 +91,23 @@ body {
    background-color: var(--accent-color);
 }
 
-/* Header */
-.page-header {
-   /* background-color: aliceblue; */
-}
-
 /* Container */
 .container {
-   width: 1200px;
+   width: 1440px;
    margin-left: auto;
    margin-right: auto;
-   /* outline: 1px solid coral; */
+   padding-left: 20px;
+   padding-right: 20px;
+   outline: 1px solid red;
 }
+
+/* Header */
+.page-header {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: aliceblue;
+}
+/* NAV */
 
 .logo {
    font-family: 'Comfortaa';
@@ -108,11 +138,14 @@ body {
 
 /* Hero */
 .hero {
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
    text-align: center;
    background-color: var(--hero-bg-color);
 }
 .hero-title {
+   margin-top: 0;
+   margin-bottom: 40px;
+
    font-size: 56px;
    font-weight: 400;
    line-height: 1.43;
@@ -128,13 +161,40 @@ body {
 }
 
 /* section PROMO */
+.promo * {
+   /* outline: 1px solid tomato; */
+}
+
+.promo .section-title {
+   margin-top: 0;
+   margin-bottom: 60px;
+}
 .section-title {
    font-size: 48px;
    font-weight: 400;
 }
+
+.promo-list .pretitle {
+   /* margin-top: 0;
+   margin-bottom: 24px; */
+}
+
+.promo-list .txt {
+   margin-top: 0;
+   margin-bottom: 32px;
+}
+
 .pretitle {
+   margin-top: 0;
+   margin-bottom: 24px;
+
    font-size: 24px;
    font-weight: 700;
+}
+
+.work-list .txt {
+   margin-top: 0;
+   margin-bottom: 0;
 }
 
 .promo .btn-link {
@@ -144,21 +204,47 @@ body {
    line-height: 1.2;
 }
 
-/* section CLIENT */
-.client {
-   text-align: center;
+/* WORK */
+/* HIDDEN */
+.visually-hidden {
+   position: fixed;
+   transform: scale(0);
 }
+
+.work-item {
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+.work-item:nth-child(2n) {
+   background-color: var(--section-color);
+}
+
+/* section CLIENT */
+.client .section-title {
+   margin-top: 0;
+   margin-bottom: 30px;
+}
+
 .accent-txt {
    font-size: 36px;
    font-weight: 400;
    line-height: 1.39;
 }
+.client .accent-txt {
+   margin-top: 0;
+   margin-bottom: 80px;
+}
 
 /* join */
-.join {
+.contact-us {
    background-color: var(--section-color);
 }
-.join .btn-link {
+
+.contact-us .accent-txt {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+.contact-us .btn-link {
    padding: 15px 52px;
 }
 
