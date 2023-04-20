@@ -16,7 +16,7 @@
 }
 
 body * {
-   outline: 1px solid tomato;
+   /* outline: 1px solid tomato; */
 }
 body {
    font-family: 'Montserrat', sans-serif;
@@ -47,17 +47,21 @@ body {
 .btn-link {
    display: inline-block;
 
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 1.2;
+   text-align: center;
+
    border-radius: 6px;
-   color: var(--accent-color);
-   background-color: var(--bg-color);
-   border: 1px solid var(--accent-color);
+   border: 1px solid transparent;
 }
 .btn-link.prime {
-   padding: 11px 42px;
+   color: var(--accent-color);
+   background-color: var(--bg-color);
+   border-color: var(--accent-color);
 }
 
 .btn-link.second {
-   padding: 11px 34px;
    color: var(--bg-color);
    background-color: var(--accent-color);
 }
@@ -90,8 +94,21 @@ body {
    color: var(--accent-color);
 }
 
+/* AUT-NAV */
+.auth-nav .prime {
+   padding: 11px 42px;
+   min-width: 130px;
+   text-align: center;
+}
+.auth-nav .second {
+   padding: 11px 34px;
+   min-width: 130px;
+   text-align: center;
+}
+
 /* Hero */
 .hero {
+   outline: 1px solid red;
    text-align: center;
    background-color: var(--hero-bg-color);
 }
